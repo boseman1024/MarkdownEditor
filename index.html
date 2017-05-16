@@ -25,83 +25,22 @@
 </div>
 <div id="inputBox">
  <form>
-  <textarea id="input">Basic useful feature list:
+  <textarea id="input">
+# Markdown Editor
+[demo](https://boseman1024.github.io/MarkdownEditor/)
+* 实时预览
+* ~~同步滚动~~
+* 代码高亮
+* 工具栏基本功能
+* ~~快捷键操作~~
+* ~~下载html/md~~
 
- * Ctrl+S / Cmd+S to save the file
- * Ctrl+Shift+S / Cmd+Shift+S to choose to save as Markdown or HTML
- * Drag and drop a file into here to load it
- * File contents are saved in the URL so you can share files
-
-
-I'm no good at writing sample / filler text, so go write something yourself.
-
-Look, a list!
-
- * foo
- * bar
- * baz
-
-And here's some code! :+1:
-
-```javascript
-$(function(){
-  $('div').html('I am a div.');
-});
-```
-
- * Ctrl+S / Cmd+S to save the file
- * Ctrl+Shift+S / Cmd+Shift+S to choose to save as Markdown or HTML
- * Drag and drop a file into here to load it
- * File contents are saved in the URL so you can share files
-
-
-I'm no good at writing sample / filler text, so go write something yourself.
-
-Look, a list!
-
- * foo
- * bar
- * baz
-
-And here's some code! :+1:
-
-```javascript
-var md = require('markdown-it')({
-  highlight: function (str, lang) {
-    if (lang && hljs.getLanguage(lang)) {
-      try {
-        return hljs.highlight(lang, str).value;
-      } catch (__) {}
-    }
-
-    return ''; // use external default escaping
-  }
-});
-```
- Basic useful feature list:
-
- * Ctrl+S / Cmd+S to save the file
- * Ctrl+Shift+S / Cmd+Shift+S to choose to save as Markdown or HTML
- * Drag and drop a file into here to load it
- * File contents are saved in the URL so you can share files
-
-
-I'm no good at writing sample / filler text, so go write something yourself.
-
-Look, a list!
-
- * foo
- * bar
- * baz
-
-And here's some code! :+1:
-
-```javascript
-$(function(){
-  $('div').html('I am a div.');
-});
-```
-</textarea>
+# Thanks
+基于以下开源项目
+Here is the libraries 
+* [markdown-it](https://github.com/markdown-it/markdown-it)
+* [highlight](https://highlightjs.org/)
+  </textarea>
  </form>
 </div>
 <div id="output"></div>
