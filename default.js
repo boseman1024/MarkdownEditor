@@ -196,8 +196,4 @@ document.onkeydown = function(){
         event.returnvalue = false;
         quote.click();
     }
-    if (event.ctrlKey == true && event.keyCode == 90) {//Ctrl+Z撤销
-        event.returnvalue = false;
-        
-    }
 }
