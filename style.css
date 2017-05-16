@@ -1,0 +1,112 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+div img{
+	max-width: 100%;
+	height: auto;
+}
+::-webkit-scrollbar{width:5px;}
+::-webkit-scrollbar-track{background-color:#f5f5f5;-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);}
+::-webkit-scrollbar-thumb{background-color:#555;}
+blockquote{
+	margin: 0;
+	padding:3px 3px 3px 20px;
+	background-color: #F0F8FF;
+	border-left: 20px double #B0E2FF;
+}
+#menu{
+	position: fixed;
+	top:20px;
+	left:43%;
+	bottom:0;
+	z-index: 999;
+	padding: 0;
+	margin: 0;
+}
+#modal-overlay{
+	visibility : hidden;
+	position: absolute;
+	left:0;
+	top:0;
+	width: 100%;
+	height:100%;
+	z-index: 1000;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.4); 
+}
+#modal-data{
+	width:300px;
+	margin: 100px auto;
+	background-color: #fff;
+	padding:15px;
+	text-align:center;
+}
+#url{
+	width: 100%;
+	height: 30px;
+	margin-bottom: 20px;
+}
+#tools{
+	display : none;
+	margin: 0;
+	padding: 0;
+}
+#tools li{
+	list-style: none;
+	cursor:pointer;
+	color: #fff;
+	height:30px;
+	width: 30px;
+	margin: 10px auto auto auto;
+}
+#bold{
+	background-image: url("font/bold.svg");
+}
+#link{
+	background-image: url("font/link.svg");
+}
+#quote{
+	background-image: url("font/discount.svg");
+}
+#code{
+	background-image: url("font/lights.svg");
+}
+#pic{
+	background-image: url("font/pic.svg");
+}
+#line{
+	background-image: url("font/line.svg");
+}
+#toolbtn{
+	cursor:pointer;
+	background-image: url("font/more_unfold.svg");
+	color: #fff;
+	height:40px;
+	width: 40px;
+}
+#input{
+	overflow:auto;
+	margin: 0;
+	padding: 20px;
+	resize: none;
+	outline: none;
+	height: auto;
+	width: 45%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	font-size: 12px;
+}
+#output{
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 50%;
+	bottom: 0;
+	overflow: auto;
+	padding: 20px;
+}
