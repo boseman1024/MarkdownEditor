@@ -4,7 +4,13 @@
 * ~~同步滚动~~
 * 代码高亮
 * 工具栏基本功能
-* ~~快捷键操作~~
+* 快捷键操作
+    Ctrl+B加粗
+    Ctrl+G图片
+    Ctrl+l链接
+    Ctrl+K代码块
+    Ctrl+Q引用
+    Ctrl+Z撤销
 * ~~下载html/md~~
 
 # Thanks

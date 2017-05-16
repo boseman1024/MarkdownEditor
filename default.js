@@ -173,3 +173,31 @@ pic.onclick = function(){
     visibility();
   }
 }
+
+//按键操作
+document.onkeydown = function(){
+    if (event.ctrlKey == true && event.keyCode == 66) {//Ctrl+B加粗
+        event.returnvalue = false;
+        bold.click();
+    }
+    if (event.ctrlKey == true && event.keyCode == 71 ) {//Ctrl+G图片
+        event.returnvalue = false;
+        pic.click();
+    }
+    if (event.ctrlKey == true && event.keyCode == 76) {//Ctrl+l链接
+        event.returnvalue = false;
+        link.click();
+    }
+    if (event.ctrlKey == true && event.keyCode == 75) {//Ctrl+K代码块
+        event.returnvalue = false;
+        code.click();
+    }
+    if (event.ctrlKey == true && event.keyCode == 81) {//Ctrl+Q引用
+        event.returnvalue = false;
+        quote.click();
+    }
+    if (event.ctrlKey == true && event.keyCode == 90) {//Ctrl+Z撤销
+        event.returnvalue = false;
+        
+    }
+}
